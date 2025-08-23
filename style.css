@@ -11,10 +11,13 @@ body {
 
 /* Header section */
 
+.header, .first, .footer {
+    background-color: #1f2937;
+}
+
 .header {
     display: flex;
     justify-content: space-evenly;
-    background-color: #1f2937;
     padding: 16px 0;
 }
 
@@ -32,7 +35,6 @@ ul {
 /* First section */
 
 .first {
-    background-color: #1f2937;
     display: flex;
     padding: 48px;
     justify-content: space-evenly;
@@ -76,10 +78,16 @@ button {
 
 /* Second section */
 
-.second {
+.second, .fourth {
     background-color: #f9faf8;
+}
+
+.second {
     display: flex;
     flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 64px;
+    gap: 24px;
 }
 
 .second h2 {
@@ -95,8 +103,14 @@ button {
     gap: 32px;
 }
 
-.boxes div {
-    border: 1px solid #3882f6;
+.mini-box {
+    width: min-content;
+    text-align: center;
+}
+
+.mini-box img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
     height: 100px;
     width: 100px;
 }
@@ -110,13 +124,7 @@ button {
     color: #1f2937;
 }
 
-
-
 /* Fourth section */
-
-.fourth {
-    background-color: #f9faf8;
-}
 
 .modal {
     background-color: #3882f6;
@@ -129,6 +137,3 @@ button {
 
 /* Footer section */
 
-.footer {
-    background-color: #1f2937;
-}
