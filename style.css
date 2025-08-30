@@ -119,9 +119,20 @@ button {
 
 .third {
     background-color: #e5e7eb;
-    font-size: 36px;
-    font-style: italic;
     color: #1f2937;
+    padding: 64px 128px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 700px;
 }
 
 /* Fourth section */
