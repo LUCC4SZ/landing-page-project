@@ -137,13 +137,23 @@ button {
 
 /* Fourth section */
 
+.fourth {
+    padding: 50px 150px;
+}
+
 .modal {
+    display: flex;
+    justify-content: space-evenly;
     background-color: #3882f6;
     color: #f9faf8;
+    margin: auto;
+    padding: 50px 80px;
+    border-radius: 8px;
 }
 
 .fourth button {
     border-color: #f9faf8;
+    border-width: 2px;
 }
 
 /* Footer section */
