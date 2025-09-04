@@ -158,3 +158,8 @@ button {
 
 /* Footer section */
 
+.footer {
+    color: #f9faf8;
+    text-align: center;
+    padding: 24px 0;
+}
